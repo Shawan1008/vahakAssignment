@@ -13,15 +13,15 @@ const Specifications = () => {
             </div>
             <div className="Specifications">
                 <div className="spec1">
-                    <img src={Path25988} alt='Path'/>
+                    <img src={Group15945} alt='Path'/>
                     <h3>Specification 01</h3>
                 </div>
                 <div className="spec2">
-                    <img src={payment} alt='payment'/>
+                    <img src={Path25988} alt='payment'/>
                     <h3>Specification 02</h3>
                 </div>
                 <div className="spec3">
-                    <img src={Group15945} alt='group'/>
+                    <img src={payment} alt='group'/>
                     <h3>Specification 03</h3>
                 </div>
             </div>

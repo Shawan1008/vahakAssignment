@@ -1,32 +1,45 @@
 .cardcontainer {
-    background-color: #423521;
-    border-radius: 5px;
+    /* background-color: #423521; */
+    border-radius: 7px;
 }
 .cardcontainer .carDetails {
     width: 100%;
     height: 82px;
     background-color: #202942;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
     margin: auto;
-    
-    /* padding-top: 10px;
-    padding-bottom: 20px; */
-
+    padding-top: 10px;
 }
 .cardcontainer .carDetails h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 22px;
-    background-color: blueviolet;
-    margin: auto;
-
+    color: white;
 }
 .cardcontainer .carDetails h4 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    line-height: 18px;
-    /* margin: auto; */
-    background-color: rgb(55, 46, 63);
-
     color: rgba(132, 146, 166, 1);
-    /* font-kerning: -0.13px; */
+}
+.cardcontainer .Specifications {
+    color: black;
+    margin-left: 10px;
+}
+.cardcontainer .Specifications img {
+    width: 4%;
+    margin-right: 10px;
+}
+.cardcontainer .Specifications .spec1 {
+    display: flex;
+    font-size: 15px;
+    line-height: 3px;
+}
+.cardcontainer .Specifications .spec2 {
+    display: flex;
+    font-size: 15px;
+    line-height: 3px;
+}
+.cardcontainer .Specifications .spec3 {
+    display: flex;
+    font-size: 15px;
+    line-height: 3px;
 }
