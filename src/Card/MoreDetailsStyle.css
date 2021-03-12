@@ -1,0 +1,21 @@
+.moredetailscontainer {
+    width: 100%;
+}
+.moredetailscontainer .buttonstyle {
+    width: 100%;
+    display: flex;
+}
+.moredetailscontainer .buttonstyle p {
+    margin: 10px;
+
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+.moredetailscontainer .buttonstyle .hideseeFunc .see {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #194DFF;
+}

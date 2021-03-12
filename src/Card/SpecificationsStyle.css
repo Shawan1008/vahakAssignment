@@ -1,8 +1,8 @@
-.cardcontainer {
+.specificationcontainer {
     /* background-color: #423521; */
     border-radius: 7px;
 }
-.cardcontainer .carDetails {
+.specificationcontainer .carDetails {
     width: 100%;
     height: 82px;
     background-color: #202942;
@@ -10,35 +10,35 @@
     margin: auto;
     padding-top: 10px;
 }
-.cardcontainer .carDetails h2 {
+.specificationcontainer .carDetails h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: white;
 }
-.cardcontainer .carDetails h4 {
+.specificationcontainer .carDetails h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: rgba(132, 146, 166, 1);
 }
-.cardcontainer .Specifications {
+.specificationcontainer .Specifications {
     color: black;
     margin-left: 10px;
 }
-.cardcontainer .Specifications img {
+.specificationcontainer .Specifications img {
     width: 4%;
     margin-right: 10px;
 }
-.cardcontainer .Specifications .spec1 {
+.specificationcontainer .Specifications .spec1 {
     display: flex;
     font-size: 15px;
     line-height: 3px;
 }
-.cardcontainer .Specifications .spec2 {
+.specificationcontainer .Specifications .spec2 {
     display: flex;
     font-size: 15px;
     line-height: 3px;
 }
-.cardcontainer .Specifications .spec3 {
+.specificationcontainer .Specifications .spec3 {
     display: flex;
     font-size: 15px;
     line-height: 3px;
