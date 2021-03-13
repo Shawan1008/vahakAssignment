@@ -1,0 +1,46 @@
+.PriceButtonsContainer .pricebuttonwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-content: center;
+    width: 230px;
+    gap: 12px;
+}
+.PriceButtonsContainer .pricebuttonwrapper .fixpricebtn button {
+    width:94px;
+    height: 35px;
+    text-align: center;
+    background-color: #F6F9FB80;
+    border: solid;
+    border-width: 1px;
+    border-color: #E7EBEE;
+    border-radius: 18px;
+}
+.PriceButtonsContainer .pricebuttonwrapper .fixpricebtn button:focus {
+    border: solid;
+    border-width: 1px;
+    border-color: #3054D6;
+    border-radius: 18px;
+    color:#3054D6
+}
+.PriceButtonsContainer .pricebuttonwrapper .negotiablebtn button {
+    width:127px;
+    height: 35px;
+    text-align: center;
+    background-color: #F6F9FB80;
+    border: solid;
+    border-width: 1px;
+    border-color: #E7EBEE;
+    border-radius: 18px;
+}
+.PriceButtonsContainer .pricebuttonwrapper .negotiablebtn button:focus {
+    border: solid;
+    border-width: 1px;
+    border-color: #3054D6;
+    border-radius: 18px;
+    color:#3054D6
+}
+.PriceButtonsContainer .buttonstyle input {
+    width: 100%;
+    font-size: 15px;
+}

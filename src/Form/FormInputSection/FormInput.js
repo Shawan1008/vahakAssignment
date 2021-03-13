@@ -19,6 +19,7 @@ const FormInput = () => {
     
     return(
         <div className='forminput'>
+            <div className="priceinput">
             <img src={IndianRupee} alt="IndianRupee"/>
             {/* <input onChange={WidthChange} value={inputvalue} width={width} type="text" id="fname" name="fname"/> */}
             <input
@@ -26,12 +27,12 @@ const FormInput = () => {
                 paddingHorizontal='8px'
                 value={inputvalue}
                 onChange={WidthChange}
-                
-                // maxWidth='30'
-                // minWidth='10'
                 width={inputvalue ? `${width}px` : `10px`}
             />
-            <PriceButtons btnstatus={btnstatus}/>
+            </div>
+            <div className="buttons">
+                <PriceButtons btnstatus={btnstatus}/>
+            </div>
         </div>
     )
 }
