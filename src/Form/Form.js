@@ -6,7 +6,7 @@ const Form = () => {
     
     return(
         <div className='FormContainer'>
-            <h2>Place Your BID</h2>
+            <h2>Place your Load Bid</h2>
             <span></span>
             <FormInput/>
             {/* <PriceButtons/> */}
