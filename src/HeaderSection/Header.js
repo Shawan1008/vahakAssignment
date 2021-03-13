@@ -1,7 +1,7 @@
 import React from 'react'
 import Hamburger from '../Hamburger/Hamburger'
-import HondoLogo1 from '../drawable-mdpi/HondoLogo1.png';
-import ProfileTop from '../drawable-mdpi/ProfileTop.png';
+import HondoLogo1 from '../Images/drawable-mdpi/HondoLogo1.png';
+import ProfileTop from '../Images/drawable-mdpi/ProfileTop.png';
 import './Header.css';
 const Header = () => {
 

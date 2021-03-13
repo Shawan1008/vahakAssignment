@@ -6,7 +6,7 @@ import './SpecificationsStyle.css'
 const Specifications = () => {
 
     return (
-        <div className="cardcontainer">
+        <div className="specificationcontainer">
             <div className="carDetails">
                 <h2>Honda City</h2>
                 <h4>Posted at 1 Nov, 9.30 AM</h4>

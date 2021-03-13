@@ -1,0 +1,23 @@
+.forminput {
+   /* background-color: navy; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.forminput img {
+    text-align: center;
+}
+input {
+    text-align: center;
+    width: 100%;
+    border:0;
+    outline:0;
+    font-size: 50px;
+    color: #0D2D11;
+    /* opacity: 12%; */
+}
+input:focus {
+    outline:none;
+}

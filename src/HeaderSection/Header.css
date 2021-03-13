@@ -2,9 +2,10 @@
     width: 100%;
     margin: auto;
     padding-top: 20px;
+    padding-bottom: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     
 }
 .HeaderContainer .hamburgermenu {

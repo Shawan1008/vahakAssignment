@@ -1,5 +1,6 @@
 import './App.css';
-import Specifications from './Card/Specifications';
+import Card from './Card/Card';
+import Form from './Form/Form';
 import Header from './HeaderSection/Header';
 
 function App() {
@@ -13,7 +14,10 @@ function App() {
         <hr/>
       </div>
       <div className="CarSection">
-        <Specifications/>
+        <Card/>
+      </div>
+      <div className='FormSection'>
+        <Form/>
       </div>
     </div>
   );

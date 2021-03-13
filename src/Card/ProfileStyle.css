@@ -1,0 +1,26 @@
+.profileConatiner {
+    display: flex;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.profileConatiner .profileimage {
+   padding: 10px;
+}
+.profileConatiner .profiledetails {
+    text-align: left;
+    margin-left: 15px;
+}
+.profileConatiner .profiledetails h3{
+    font-size: 15px;
+    color: #0A2239;
+    line-height: 1px;
+}
+.profileConatiner .profiledetails h4{
+    font-size: 13px;
+    color: #8492A6;
+    line-height: 1px;
+
+}
