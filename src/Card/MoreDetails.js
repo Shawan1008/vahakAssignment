@@ -10,8 +10,8 @@ const MoreDetails = () => {
                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>}</div>
             <div className='hideseeFunc' 
                 onClick={()=>setState({ shown:!state.shown})}>
-                    {state.shown ? <div style={{padding:'7px',backgroundColor:'#2355FC0F',color:'#194DFF',fontSize:'12px'}}>More Details<img src={More} alt="More Details"/>
-                    </div> : <div style={{padding:'7px',backgroundColor:'#2355FC0F',color:'#194DFF',fontSize:'12px'}}>Hide Details<img src={MoreUp} alt="Hide Details"/></div>}</div>
+                    {state.shown ? <div style={{backgroundColor:'#2355FC0F',color:'#194DFF',fontSize:'12px'}}>More Details<img src={More} alt="More Details"/>
+                    </div> : <div style={{backgroundColor:'#2355FC0F',color:'#194DFF',fontSize:'12px'}}>Hide Details<img src={MoreUp} alt="Hide Details"/></div>}</div>
         </div>
     )
 }
