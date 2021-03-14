@@ -14,11 +14,10 @@ const UserDetails = () => {
     const [ textcolor, setTextcolor ] = useState('#2355FC')
     const [ opacity, setOpacity ] = useState('30%')
 
-    const [ shown, setShown ] = useState(true)
     const onChangeMobile = event => {
         setMobile(event.target.value)
         let value = event.target.value.length
-        if(value == 0) {
+        if(value === 0) {
             setNameStatus(true)
         }
         else {
@@ -28,7 +27,7 @@ const UserDetails = () => {
     const onChangeName = event => {
         setName(event.target.value)
         let value = event.target.value.length
-        if(value == 0) {
+        if(value === 0) {
             setRemarkStstus(true)
             setColor('#EDF0F7')
             setTextcolor('#2355FC')
@@ -45,7 +44,7 @@ const UserDetails = () => {
     const onChangeRemarks = event => {
         setRemark(event.target.value)
         let value = event.target.value.length
-        if(value == 0) {
+        if(value === 0) {
             setBtnstatus(true)
         }
         else {
@@ -61,12 +60,16 @@ const UserDetails = () => {
     }
     return (
         <div className="userdetailscontainer">
-            <form onSubmit={onsubmit} shown={shown}>
-                {/* <span class="prefix">+91</span> */}
-                <input class="has-prefix" onChange={onChangeMobile} type="text" placeholder='Enter your mobile number*' value={mobile} required/>
-                <input onChange={onChangeName} type="text" placeholder='Enter your name*' value={name} disabled={nameStatus} required/>
-                <input onChange={onChangeRemarks} type="text" placeholder='Enter Remarks(Optional)' value={remark} disabled={remarksStatus}/>
-                <button type='submit' disabled={btnstatus} style={{backgroundColor:color}}><p style={{color:textcolor,opacity:opacity}}>Bid Now</p></button>
+            <hr/>
+            <form onSubmit={onsubmit} >
+                <div className="inputclass">
+                    <input class="has-prefix" onChange={onChangeMobile} type="text" placeholder='Enter your mobile number*' value={mobile} required/>
+                    <input onChange={onChangeName} type="text" placeholder='Enter your name*' value={name} disabled={nameStatus} required/>
+                    <input onChange={onChangeRemarks} type="text" placeholder='Enter Remarks(Optional)' value={remark} disabled={remarksStatus}/>
+                </div>
+                <div className="btnclass">
+                    <button type='submit' disabled={btnstatus} style={{backgroundColor:color}}><p style={{color:textcolor,opacity:opacity}}>Bid Now</p></button>
+                </div>
             </form>
         </div>
     )

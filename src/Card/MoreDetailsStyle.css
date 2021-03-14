@@ -13,8 +13,9 @@
     line-height: 18px;
     text-align: left;
 }
-.moredetailscontainer .buttonstyle .hideseeFunc .see {
+.moredetailscontainer .hideseeFunc  {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* padding-top: 10px; */
+    /* grid-template-columns: 1fr 1fr; */
     color: #194DFF;
 }

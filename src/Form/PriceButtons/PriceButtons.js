@@ -17,7 +17,6 @@ const PriceButtons = (props) => {
                         {state.shown ? <div>Rate Negiotable</div> : <div>Rate Negiotable</div>}
                     </button>
                 </div>
-
             </div>
             <div className='buttonstyle'>
                 {state.shown ? <div></div> 

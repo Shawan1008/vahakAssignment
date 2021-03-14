@@ -2,7 +2,7 @@
   text-align: center;
   max-width: 375px;
   margin: 100px auto 100px auto;
-  height: 1223px;
+  height: 100%;
   background-color:#ffffff;
   border: solid;
   border-width: 1px;
@@ -51,7 +51,8 @@
 .FormSection {
   margin: 35px auto auto auto;
   width: 335px;
-  height: 217px;
+  height: 100%;
+  margin-bottom: 30px;
 
 }
 /* .App-link {

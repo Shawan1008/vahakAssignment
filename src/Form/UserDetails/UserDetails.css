@@ -1,9 +1,26 @@
 .userdetailscontainer {
+    /* padding: 10px; */
+  
+}
+.userdetailscontainer hr {
+    width: 333px;
+    justify-content: center;
+    color: #0A22391F;
+    margin-top: 30px;
+}
+.userdetailscontainer form {
     padding: 10px;
-    /* background-color: orangered; */
+    /* margin-bottom: -90px; */
 }
 .userdetailscontainer input {
     font-size: 14px;
+}
+.userdetailscontainer input:focus {
+    border: solid;
+    border-width: 1px;
+    border-color: #3054D6;
+    border-radius: 4px;
+    color:#3054D6
 }
 .userdetailscontainer button {
     width: 320px;
@@ -12,7 +29,7 @@
     border-width: 0px;
 }
 .userdetailscontainer input {
-    width: 303px;
+    width: 295px;
     height: 50px;
     box-sizing: border-box;
     border: 1px solid #E7EBEEB3;
@@ -23,14 +40,16 @@
     font-size: 16px;
     font-weight: 22px;
 }
-/* .userdetailscontainer .prefix {
-    width: 100%;
-    position: relative;
-    right: -3px;
-    text-align: left;
-    color: rgb(0, 0, 0);
+
+.userdetailscontainer button {
+    margin-top: 0px;
 }
-  
-.userdetailscontainer input.has-prefix {
-    
-  } */
+.userdetailscontainer .inputclass {
+    width: 100%;
+    margin-top: 10px;
+    /* padding: 10px; */
+    /* border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: #0A22391F; */
+}

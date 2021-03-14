@@ -6,8 +6,6 @@ const Form = () => {
     
     return(
         <div className='FormContainer'>
-            <h2>Place your Load Bid</h2>
-            <span></span>
             <FormInput/>
             {/* <PriceButtons/> */}
         </div>
